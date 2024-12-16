@@ -14,6 +14,8 @@ struct ContentView: View {
                 .fill(.purple)
                 .stroke(.orange, lineWidth: 30)
                 .stroke(.blue, lineWidth: 10)
+            Arrow()
+            Pentagon()
         }
         .padding()
     }
